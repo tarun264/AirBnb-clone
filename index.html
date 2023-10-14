@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="core.css">
+    <title>Home | Airbnb</title>
+</head>
+
+<body>
+    <header>
+        <div class="inner">
+            <div class="logo">
+                <a href="/" class="logo-link">
+                   <img src="./assets/Logo.png" alt="">
+                </a>
+            </div>
+            <div class="header-menu">
+                <ul>
+                    <li>
+                        <a href="#" class="active">Places to stay</a>
+                    </li>
+                    <li>
+                        <a href="#">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#">Online Experiences</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-side">
+                <button type="button" class="btn secondry">Become a Host</button>
+                <button type="button" class="btn icon-btn">
+                   <img src="./assets/globe.png" alt="">
+                </button>
+
+                <button class="btn profile-btn" type="button">
+                   <img src="./assets/menu.png" alt="">
+
+                    <img src="./assets/Avatar Base.png" alt="User Profile">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Search bar, listings, and map will go here -->
+        <div class="search-bar">
+            <form action="#" method="get" id="form">
+                <div class="input-group">
+                    <label for="search">Location</label>
+                    <input type="text" id="search" class="input" placeholder="Where are you going?">
+                </div>
+                <div class="input-group">
+                    <label for="check-in">Check in</label>
+                    <input type="text" id="check-in" onblur="(this.type='text')" onfocus="(this.type='date')"
+                        class="input" placeholder="Add dates">
+                </div>
+                <div class="input-group">
+                    <label for="check-out">Check out</label>
+                    <input type="text" id="check-out" onblur="(this.type='text')" onfocus="(this.type='date')"
+                        class="input" placeholder="Add dates">
+                </div>
+                <div class="input-group">
+                    <label for="guest">Guests</label>
+                    <input type="text" id="guest" class="input" placeholder="Add guests">
+                </div>
+
+                <button class="btn primary" type="submit">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16.0417 16.0416L12.9167 12.9166M3.95834 9.16658C3.95834 6.2901 6.29019 3.95825 9.16668 3.95825C12.0432 3.95825 14.375 6.2901 14.375 9.16658C14.375 12.0431 12.0432 14.3749 9.16668 14.3749C6.29019 14.3749 3.95834 12.0431 3.95834 9.16658Z"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+
+        <div class="hero-bar">
+            <div class="inner">
+                <h1>Not sure where to go? Perfect</h1>
+
+                <button class="btn secondry" type="button">I'm flexible</button>
+            </div>
+        </div>
+
+        <div class="categories">
+            <h2 class="heading">Inspiration for your next trip</h2>
+
+            <div class="slider">
+                <div class="card">
+                    <img src="./assets/Rectangle 1.png" alt="">
+                    <div class="bottom">
+                        <h3>Nashille</h3>
+                        <p>53 miles away</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/Rectangle 1 (1).png" alt="">
+                    <div class="bottom">
+                        <h3>South Haven</h3>
+                        <p>168 miles away</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/Rectangle 3.png" alt="">
+                    <div class="bottom">
+                        <h3>Stanton</h3>
+                        <p>192 miles away</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/Rectangle 4.png" alt="">
+                    <div class="bottom">
+                        <h3>New Buffalo</h3>
+                        <p>130 miles away</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience">
+            <h2 class="heading">Discover Airbnb Experiences</h2>
+
+            <div class="slider">
+                <div class="card">
+                    <img src="./assets/exp1.png" alt="" srcset="">
+
+                    <h3>Things to do on your trip</h3>
+                    <button type="button" class="btn">Experience</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/exp2.png" alt="" srcset="">
+
+                    <h3>Things to do from home</h3>
+                    <button type="button" class="btn">Online Experience</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="shop">
+            <div class="lp">
+                <h2>Shop Airbnb gift cards</h2>
+
+                <a href="#" class="btn">Learn more</a>
+            </div>
+            <img src="./assets/v2704_6504.png" alt="">
+        </div>
+
+        <div class="hosting">
+            <div class="inner">
+                <h2>Questions about hosting?</h2>
+
+                <button type="button" class="btn">
+                    Ask a Superhost
+                </button>
+            </div>
+        </div>
+
+        <div class="inspiration">
+            <h2 class="heading">Inspiration for future getaways</h2>
+
+            <ul class="tabs">
+                <li class="active">
+                    <a href="#">Destinations of arts & culture</a>
+                </li>
+                <li>
+                    <a href="#">Destinations of outdoor adventure</a>
+                </li>
+                <li>
+                    <a href="#">Mountains cabins</a>
+                </li>
+                <li>
+                    <a href="#">Beach destinations</a>
+                </li>
+                <li>
+                    <a href="#">Popular destinations</a>
+                </li>
+                <li>
+                    <a href="#">Unique Stays</a>
+                </li>
+            </ul>
+
+            <ul class="types">
+                <li>
+                    <b>Phoenix</b>
+                    <span>Arizona</span>
+                </li>
+                <li>
+                    <b>Hot Springs</b>
+                    <span>Arkansas</span>
+                </li>
+                <li>
+                    <b>Los Angeles</b>
+                    <span>Califormia</span>
+                </li>
+                <li>
+                    <b>San Diego</b>
+                    <span>Califormia</span>
+                </li>
+                <li>
+                    <b>San Francisco</b>
+                    <span>Califormia</span>
+                </li>
+                <li>
+                    <b>Barcelona</b>
+                    <span>Catalonia</span>
+                </li>
+                <li>
+                    <b>Prague</b>
+                    <span>Czechia</span>
+                </li>
+                <li>
+                    <b>Washington</b>
+                    <span>District of Columbia</span>
+                </li>
+                <li>
+                    <b>Keswick</b>
+                    <span>England</span>
+                </li>
+                <li>
+                    <b>London</b>
+                    <span>England</span>
+                </li>
+                <li>
+                    <b>Scarborough</b>
+                    <span>England</span>
+                </li>
+                <li>
+                    <b>Show more</b>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <!-- Footer will go here -->
+        <div class="top">
+            <div class="col">
+                <h2>Support</h2>
+                <ul>
+                    <li>
+                        <a href="#">Help Center</a>
+                    </li>
+                    <li>
+                        <a href="#">Safety Information</a>
+                    </li>
+                    <li>
+                        <a href="#">Cancellation options</a>
+                    </li>
+                    <li>
+                        <a href="#">Our COVID-19 Response</a>
+                    </li>
+                    <li>
+                        <a href="#">Supporting people with disabilities</a>
+                    </li>
+                    <li>
+                        <a href="#">Report a neighborhood concern</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h2>Community</h2>
+                <ul>
+                    <li>
+                        <a href="#">Airbnb.org disaster relief housing</a>
+                    </li>
+                    <li>
+                        <a href="#">Support Afghan refugees</a>
+                    </li>
+                    <li>
+                        <a href="#">Celebrating diversity & belonging</a>
+                    </li>
+                    <li>
+                        <a href="#">Combating discrimination</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h2>Hosting</h2>
+                <ul>
+                    <li>
+                        <a href="#">Try hosting</a>
+                    </li>
+                    <li>
+                        <a href="#">Aircover: protection for Hosts</a>
+                    </li>
+                    <li>
+                        <a href="#">Explore hosting resources</a>
+                    </li>
+                    <li>
+                        <a href="#">Visit our community forum</a>
+                    </li>
+                    <li>
+                        <a href="#">How to host resposibly</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h2>About</h2>
+                <ul>
+                    <li>
+                        <a href="#">Newsroom</a>
+                    </li>
+                    <li>
+                        <a href="#">Learn about new features</a>
+                    </li>
+                    <li>
+                        <a href="#">Lette from our founders</a>
+                    </li>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#">Investors</a>
+                    </li>
+                    <li>
+                        <a href="#">Airbnb Luxe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <p>@2022 Airbnb, Inc</p>
+
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Sitemap</a>
+        </div>
+    </footer>
+
+
+    <script src="core.js"></script>
+    <script src="home.js"></script>
+</body>
+
+</html>
